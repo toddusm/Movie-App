@@ -1,0 +1,10 @@
+<h1>Search Results</h1>
+<h3>Click on details button for more information</h3>
+
+<div ng-repeat="detail in details">
+	{{detail.Title}}, {{detail.Year}}
+	<button ng-click="getTitle(this)">Movie Details</button>
+	<hr />
+</div>
+
+<return-home></return-home>

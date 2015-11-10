@@ -1,0 +1,28 @@
+<div class="container">
+		<div class="row">
+			<div class="col s12">
+				<h1 class="center-align">{{movieInfo.Title}}</h1>
+			</div>
+		</div>
+		
+		<div class="divider"></div>
+		
+		<div class="row" id="poster">
+			<div class="col s4">
+				<!--<span><img ng-src="{{movieInfo.Poster}}" /></span><br>-->
+				<span><b>Year Release: </b>{{movieInfo.Released}}</span><br>
+				<span><b>Rated: </b>{{movieInfo.Rated}}</span><br>
+				<span><b>Runtime: </b>{{movieInfo.Runtime}}</span>
+			</div>
+			
+			<div class="col s8" id="plot">
+				<span>{{movieInfo.Plot}}</span><br>
+				<span>{{movieInfo.Actors}}</span>
+				
+			</div>
+
+		</div>
+		
+	</div>
+
+<return-home></return-home>

@@ -1,9 +1,15 @@
-<h1>Search Results</h1>
-<h3>Click on details button for more information</h3>
+
+<div class="card-panel blue lighten-1 textShadow">
+	<h1>Search Results</h1>
+	<h3>Click on details button for more information</h3>
+</div>
+
+<hr>
 
 <div ng-repeat="detail in details">
-	{{detail.Title}}, {{detail.Year}}
-	<button ng-click="getTitle(this)">Movie Details</button>
+	{{detail.Title}} <br>
+	 {{detail.Year}} <br>
+	<button class="blue lighten-3 Button" ng-click="getTitle(this)">Movie Details</button>
 	<hr />
 </div>
 

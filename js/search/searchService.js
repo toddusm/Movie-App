@@ -31,7 +31,7 @@ var movieApp = angular.module('movieApi');
 		console.log("getTitle ran");
 		return $http({
 			method: 'GET',
-			url: 'http://www.omdbapi.com/?i=' + detail
+			url: 'http://www.omdbapi.com/?i=' + detail + '&plot=full'
 		}).then(function(movieInfo){
 			console.log(movieInfo);
 			movieDetails.Actors = movieInfo.data.Actors,

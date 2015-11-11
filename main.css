@@ -8,3 +8,19 @@ h3 {
 li {
 	list-style: none;
 }
+
+::-webkit-input-placeholder {
+   color: black;
+}
+
+#movieInfo{
+	margin-top: 2.5%;
+}
+
+.Button{
+	color: white;
+}
+
+.textShadow{
+	text-shadow: 1px 1px grey;	
+}

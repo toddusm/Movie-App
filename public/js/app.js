@@ -3,7 +3,7 @@ var movieApp = angular.module('movieApi', ['ngRoute']);
 movieApp.config(function($routeProvider, $httpProvider){
 	
 	$routeProvider
-		.when('/home',{
+		.when('/',{
 			templateUrl: 'js/home/homeTmpl.html',
 			controller: 'homeCtrl'
 		})
@@ -15,9 +15,7 @@ movieApp.config(function($routeProvider, $httpProvider){
 			templateUrl: 'js/details/detailsTmpl.html',
 			controller: 'detailsCtrl'
 		})
-		.otherwise(
-			'/home'
-		)
+		.otherwise('/')
 });
 
 

@@ -1,0 +1,19 @@
+
+<div class="card-panel blue lighten-1 textShadow">
+	<h1>Search Results</h1>
+	<h3>Click on details button for more information</h3>
+	<return-home></return-home>
+</div>
+
+<!--<hr>-->
+<div class="container">
+	<div class="text" ng-repeat="detail in details">
+		{{detail.Title}} <br>
+		{{detail.Year}} <br>
+		<button class="blue lighten-3 Button" ng-click="getTitle(this)">Movie Details</button>
+		<hr />
+	</div>
+</div>
+
+
+

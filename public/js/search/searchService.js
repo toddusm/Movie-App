@@ -45,6 +45,7 @@ var movieApp = angular.module('movieApi');
 			movieDetails.Runtime = movieInfo.data.Runtime,
 			movieDetails.Title = movieInfo.data.Title,
 			movieDetails.Writer = movieInfo.data.Writer
+			movieDetails.imdbID = movieInfo.data.imdbID
 		})
 	}
 	

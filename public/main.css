@@ -1,0 +1,47 @@
+body {
+	background-color: lightgray;
+	/*background-image: url(https://farm4.staticflickr.com/3562/3281752305_cd17114d44_o_d.jpg);
+	background-repeat: repeat-1;*/
+}
+
+h1 {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+}
+
+li {
+	list-style: none;
+}
+
+.text {
+	text-shadow: 1px 1px lightgray;
+}
+
+::-webkit-input-placeholder {
+   color: black;
+}
+
+#movieInfo{
+	margin-top: 2.5%;
+}
+
+.Button{
+	color: white;
+}
+
+.textShadow{
+	text-shadow: 1px 1px grey;	
+}
+#search-button {
+	border: .5px solid lightgray
+}
+
+blockquote{
+	border-left: 2px solid #42a5f5 
+}
+
+button, input, optgroup, select, textarea {
+	color: #bbdefb;
+}

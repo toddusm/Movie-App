@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/toddusm/Movie-App#readme",
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "forever": "^0.15.1"
   }
 }
